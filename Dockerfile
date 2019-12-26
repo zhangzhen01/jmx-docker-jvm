@@ -7,7 +7,7 @@ RUN mkdir -p /opt/app
 
 # An executable jar that will run in this Docker container
 # Run `mvn package` to create it
-ADD target/sample-app.jar /opt/app/app.jar
+ADD sample-app.jar /opt/app/app.jar
 
 # A simple shell script to pass JVM arguments
 ADD bin/entrypoint.sh /opt/app/entrypoint.sh

@@ -5,3 +5,4 @@ services:
     ports:
       - "9010:9010"
       - "5005:5005"
+    network_mode: "host"

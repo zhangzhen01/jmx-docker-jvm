@@ -2,7 +2,7 @@
 set -x
 
 JMX_PORT=9010
-HOST="0.0.0.0"
+HOST="172.31.32.13"
 
 java \
   -Dsun.management.jmxremote.level=FINEST \
